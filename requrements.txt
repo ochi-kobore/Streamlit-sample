@@ -1,1 +1,6 @@
-streamlit==0.84.1
+altair
+matplotlib.pyplot
+numpy
+pandas
+streamlit
+yfinance
