@@ -16,16 +16,16 @@ for i in range(100):
 
 'Done!!!'
 
-left_column, right_column = st.beta_columns(2)
+left_column, right_column = st.columns(2)
 button = left_column.button('右カラムに文字を表示')
 if button:
     right_column.write('ここは右カラムです')
 
-expander = st.beta_expander('問い合わせ1')
+expander = st.expander('問い合わせ1')
 expander.write('問い合わせ1の回答')
-expander = st.beta_expander('問い合わせ2')
+expander = st.expander('問い合わせ2')
 expander.write('問い合わせ2の回答')
-expander = st.beta_expander('問い合わせ3')
+expander = st.expander('問い合わせ3')
 expander.write('問い合わせ3の回答')
 
 # text = st.text_input('あなたの趣味を教えてください。')
