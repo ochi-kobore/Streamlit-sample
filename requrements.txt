@@ -1,4 +1,0 @@
-altair
-pandas
-streamlit
-Yahoo! Finance market data downloader
