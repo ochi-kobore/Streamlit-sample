@@ -1,6 +1,4 @@
 import altair as alt
-import matplotlib.pyplot as plt
-from numpy import true_divide
 import pandas as pd
 import streamlit as st
 import yfinance as yf
@@ -79,4 +77,4 @@ try:
 
         st.altair_chart(chart, use_container_width=True)
 except:
-    st.error("おっと！ なにかエラーが起きているようです。")
+    st.error('おっと！ 何かエラーが起きているようだ。')
